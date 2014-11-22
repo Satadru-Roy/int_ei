@@ -1,0 +1,2 @@
+Nov 21 19:58:01 W driver: The following components will execute EVERY iteration of this workflow (unnecessarily): ['pareto']
+Nov 21 19:58:01 W driver: The following components will execute EVERY iteration of this workflow (unnecessarily): ['pareto']
