@@ -1,4 +1,5 @@
-'''Single Ojective EI Example'''
+'''Single Ojective EI Example
+This was from Justin'''
 
 from tempfile import mkdtemp
 import shutil
@@ -11,7 +12,7 @@ from openmdao.lib.optproblems.branin import BraninComponent
 from openmdao.lib.surrogatemodels.api import KrigingSurrogate
 from openmdao.main.api import Assembly
 
-from custom_metamodel import CustomMetaModel 
+from custom_metamodel import CustomMetaModel
 from convex_ei import ConvexEI
 
 
@@ -89,7 +90,7 @@ class Analysis(Assembly):
         shutil.rmtree(self._tdir, ignore_errors=True)
 
 
-if __name__ == "__main__":  
+if __name__ == "__main__":
 
     import sys
 
